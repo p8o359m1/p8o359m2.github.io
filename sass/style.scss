@@ -20,12 +20,20 @@ body {
     .cube {
       padding: 1.5rem;
       border-radius: 35px;
+
+      &:hover {
+        filter: blur(0);
+      }
     }
 
     .title {
       color: $White;
       padding-left: 1.5rem;
       font-size: 1.3rem;
+
+      &:hover {
+        color: $Cyan;
+      }
     }
 
     .text {
@@ -91,7 +99,13 @@ body {
 
       .name {
         color: $White;
+
+       &:hover {
+          color: $Cyan;
+        }
       }
     }
   }
 }
+
+

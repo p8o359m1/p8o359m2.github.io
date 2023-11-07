@@ -74,10 +74,16 @@ body .card .cube {
   padding: 1.5rem;
   border-radius: 35px;
 }
+body .card .cube:hover {
+  filter: blur(0);
+}
 body .card .title {
   color: hsl(0, 0%, 100%);
   padding-left: 1.5rem;
   font-size: 1.3rem;
+}
+body .card .title:hover {
+  color: hsl(178, 100%, 50%);
 }
 body .card .text {
   color: hsl(228, 9%, 43%);
@@ -131,4 +137,7 @@ body .card .footer .footer__text {
 }
 body .card .footer .name {
   color: hsl(0, 0%, 100%);
+}
+body .card .footer .name:hover {
+  color: hsl(178, 100%, 50%);
 }/*# sourceMappingURL=style.css.map */
